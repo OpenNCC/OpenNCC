@@ -55,7 +55,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       navbar: {
         title: 'OpenNCC',
         logo: {
@@ -70,7 +70,7 @@ const config = {
             label: '文档',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/OpenNCC/OpenNCC',
             label: 'GitHub',
             position: 'right',
           },
@@ -89,29 +89,16 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '学院官网',
+                href: 'https://cse.whu.edu.cn/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                label: '网安直通车',
+                href: 'https://zhwa.whu.edu.cn/express.html'
+              }
             ],
           },
         ],
