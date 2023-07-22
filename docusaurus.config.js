@@ -63,7 +63,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/OpenNCC/OpenNCC/tree/NCC%E6%8C%87%E5%8D%97%EF%BC%88WHUer%EF%BC%89',
+            'https://github.com/OpenNCC/Docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -101,12 +101,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'About',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/前言',
+                label: 'Homepage',
+                to: '/',
               },
+              {
+                label: 'GitHub',
+                href: "https://github.com/OpenNCC/OpenNCC"
+              }
             ],
           },
           {
