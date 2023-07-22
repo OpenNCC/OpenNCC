@@ -1,4 +1,4 @@
 [submodule "docs"]
 	path = docs
-	url = git@github.com:OpenNCC/OpenNCC.git
+	url = git@github.com:OpenNCC/Docs.git
 	branch = docs
