@@ -1,0 +1,4 @@
+[submodule "docs"]
+	path = docs
+	url = git@github.com:OpenNCC/OpenNCC.git
+	branch = NCC指南（WHUer）
