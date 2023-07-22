@@ -14,6 +14,3 @@ import { ReactSVG } from 'react-svg';
 
 在仅仅修改文档的情况下，请直接向文档仓库提PR。PR merge后网站需要几分钟时间更新。
 
-## 贡献者列表
-
-<ReactSVG src="https://contrib.rocks/image?repo=OpenNCC/Docs" />
