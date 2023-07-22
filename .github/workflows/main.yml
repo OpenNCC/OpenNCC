@@ -28,6 +28,7 @@ jobs:
     # Update references
     - name: Git Sumbodule Update
       run: |
+        git submodule sync
         git submodule update --remote
 
     - name: Commit update
